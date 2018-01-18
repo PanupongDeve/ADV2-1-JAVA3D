@@ -202,7 +202,7 @@ public class WrapCheckers3D extends JPanel
     TransformGroup tg_tail = new TransformGroup(t3d_tail);
     tg_tail.addChild(new Cylinder(0.5f,6.0f, tailPancilApp));   // set its radius and appearance
  
-    sceneBG.addChild(tg_head);
+    sceneBG.addChild(t3d_head);
     sceneBG.addChild(tg_tail);
   }  // end of floatingSphere()
 
